@@ -1,0 +1,103 @@
+body{
+	width: 100%;
+	font-family: "Outfit", sans-serif;
+	background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg) no-repeat;
+}
+
+#container {
+	width: 30%;
+	height: 550px;
+	margin: 20px auto;
+	border-radius: 15px;
+	text-align: center;
+	background: white;
+}
+
+header img{
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+}
+
+section#principal h2{
+	padding-top: 10px;
+}
+
+section#principal p{
+	margin: 0 50px 15px;
+	font-size: 16px;
+	color: hsl(224, 23%, 55%);
+}
+
+section#plan{
+	width: 70%;
+	height: 5em;
+	margin: 0 auto;
+	text-align: left;
+	background-color: hsl(225, 100%, 98%);
+	line-height: 2em;
+	border-radius: 10px;
+}
+
+section#plan img{
+	padding-top: 15px;
+	padding-left: 10px;
+	float: left;
+}
+
+section#plan h4{
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+
+section#plan span{
+	position: relative;
+	bottom: 15px;
+	left: 10px;
+	color: hsl(224, 23%, 55%);
+	float: left;
+}
+
+section#plan a{
+	position: relative;
+	bottom: 25px;
+	padding-right: 5px;
+	font-size: 0.8em;
+	float: right;
+}
+
+section#plan a:link, a:visited{
+	color: hsl(245, 75%, 52%);
+}
+
+section#plan a:hover{
+	opacity: 0.6;
+}
+
+section#button input{
+	clear: both;
+	width: 70%;
+	margin: 10px auto 15px;
+	padding: 5px;
+	color: white;
+	line-height: 2em;
+	background: hsl(245, 75%, 52%);
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px hsl(245, 75%, 52%);
+}
+
+section#button input:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+section#cancel a{
+	color: hsl(224, 23%, 55%);
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+section#cancel a:hover{
+	color: black;
+	font-weight: bold;
+}
